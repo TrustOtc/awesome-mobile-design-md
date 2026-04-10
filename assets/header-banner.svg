@@ -1,0 +1,121 @@
+<svg width="1500" height="801" viewBox="0 0 1500 801" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="70" x2="1360" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.06)"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="phoneA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EFF6FF"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="phoneB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="phoneC" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FDF2F8"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <filter id="blurGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1500" height="801" rx="28" fill="url(#bg)"/>
+  <circle cx="1260" cy="140" r="170" fill="#2563EB" fill-opacity="0.18" filter="url(#blurGlow)"/>
+  <circle cx="220" cy="690" r="220" fill="#10B981" fill-opacity="0.14" filter="url(#blurGlow)"/>
+  <circle cx="760" cy="220" r="220" fill="#8B5CF6" fill-opacity="0.12" filter="url(#blurGlow)"/>
+
+  <rect x="72" y="64" width="1356" height="673" rx="28" fill="url(#panel)" stroke="rgba(255,255,255,0.12)"/>
+
+  <g opacity="0.92">
+    <rect x="118" y="110" width="120" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+    <text x="146" y="133" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">MOBILE</text>
+    <rect x="248" y="110" width="136" height="34" rx="17" fill="rgba(37,99,235,0.22)"/>
+    <text x="278" y="133" fill="#BFDBFE" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">DESIGN.MD</text>
+  </g>
+
+  <text x="118" y="242" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">Awesome Mobile</text>
+  <text x="118" y="326" fill="#93C5FD" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="800">DESIGN.md</text>
+  <text x="118" y="392" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="500">
+    Curated mobile UI design systems for AI-generated apps
+  </text>
+  <text x="118" y="435" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">
+    React Native, iOS, Android • native feel • strong visual direction • reusable styles
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="880" y="128" width="168" height="350" rx="34" fill="#020617" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="891" y="141" width="146" height="326" rx="26" fill="url(#phoneA)"/>
+    <rect x="936" y="154" width="56" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="909" y="184" width="110" height="78" rx="22" fill="#FFFFFF"/>
+    <rect x="920" y="200" width="54" height="10" rx="5" fill="#93C5FD"/>
+    <rect x="920" y="219" width="72" height="8" rx="4" fill="#94A3B8"/>
+    <rect x="909" y="278" width="110" height="58" rx="18" fill="#E0F2FE"/>
+    <rect x="909" y="350" width="50" height="50" rx="16" fill="#DBEAFE"/>
+    <rect x="969" y="350" width="50" height="50" rx="16" fill="#D1FAE5"/>
+    <rect x="909" y="413" width="110" height="28" rx="14" fill="url(#accent1)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1038" y="188" width="168" height="350" rx="34" fill="#020617" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="1049" y="201" width="146" height="326" rx="26" fill="url(#phoneB)"/>
+    <rect x="1094" y="214" width="56" height="8" rx="4" fill="#475569"/>
+    <rect x="1068" y="244" width="108" height="94" rx="22" fill="#111827" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="1080" y="258" width="60" height="10" rx="5" fill="#A78BFA"/>
+    <rect x="1080" y="278" width="40" height="8" rx="4" fill="#64748B"/>
+    <rect x="1068" y="354" width="108" height="18" rx="9" fill="#1E293B"/>
+    <rect x="1068" y="381" width="108" height="18" rx="9" fill="#1E293B"/>
+    <rect x="1068" y="408" width="108" height="18" rx="9" fill="#1E293B"/>
+    <rect x="1068" y="450" width="108" height="30" rx="15" fill="url(#accent3)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1194" y="148" width="168" height="350" rx="34" fill="#020617" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="1205" y="161" width="146" height="326" rx="26" fill="url(#phoneC)"/>
+    <rect x="1250" y="174" width="56" height="8" rx="4" fill="#A78BFA"/>
+    <rect x="1224" y="204" width="108" height="56" rx="20" fill="#FFFFFF" fill-opacity="0.74"/>
+    <circle cx="1250" cy="297" r="24" fill="#F472B6" fill-opacity="0.32"/>
+    <circle cx="1288" cy="297" r="24" fill="#22D3EE" fill-opacity="0.3"/>
+    <circle cx="1269" cy="331" r="24" fill="#6366F1" fill-opacity="0.26"/>
+    <rect x="1224" y="384" width="108" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.5"/>
+    <rect x="1224" y="411" width="74" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.38"/>
+    <rect x="1224" y="444" width="108" height="28" rx="14" fill="url(#accent2)"/>
+  </g>
+
+  <g>
+    <rect x="118" y="522" width="204" height="94" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="144" y="560" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">10 styles</text>
+    <text x="144" y="594" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">from content-first</text>
+  </g>
+  <g>
+    <rect x="344" y="522" width="242" height="94" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="370" y="560" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">AI-readable</text>
+    <text x="370" y="594" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">plain Markdown design systems</text>
+  </g>
+  <g>
+    <rect x="608" y="522" width="230" height="94" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="634" y="560" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Mobile-first</text>
+    <text x="634" y="594" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">for iOS, Android, RN</text>
+  </g>
+</svg>
