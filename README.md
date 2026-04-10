@@ -1,2 +1,1 @@
-# awesome-mobile-design-md
-A Design.md specification for mobile apps (iOS / Android / React Native / Flutter)
+Design.md for mobile apps — built for AI-generated UI (React Native, iOS, Android)
